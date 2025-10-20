@@ -1,0 +1,92 @@
+h1 {
+    color: rgba(0, 0, 0, 0.941);
+    display: flex;
+    font-family: 'BBH Sans Bartle', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 4rem
+}
+
+
+.img_CatContainer {
+    position: relative;
+    left: 36rem;
+    width: 40rem;
+    height: 40rem;
+    margin: 0, auto;
+
+
+}
+
+.img_CatContainer img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+
+
+}
+
+.img-button {
+    width: 15rem;
+}
+
+button {
+    position: relative;
+    top: 3rem;
+    padding: 0;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/*Breed word edit*/
+h3 {
+    padding-top: 50px;
+    font-size: 4rem;
+    font-family: 'Frijole', cursive;
+    position: relative;
+    padding-left: 2rem;
+    padding-bottom: 0rem;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    align-items: center;
+    font-family: 'Frijole', cursive;
+    margin-top: -10rem;
+}
+
+#ranCatImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+
+}
+
+.topCatMachine {
+    position: absolute;
+    z-index: 0;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+}
+
+
+.img-button:hover {
+    transition: opacity 0.8s ease;
+    content: url(img/CLICKHERERED.png);
+
+
+}
